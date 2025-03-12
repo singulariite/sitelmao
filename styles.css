@@ -23,8 +23,8 @@ body {
 }
 
 @font-face {
-  font-family: 'romantic';
-  src: url('./Fonts/romantic.ttf') format('truetype');
+  font-family: 'technott';
+  src: url('./Fonts/technott.ttf') format('truetype');
 }
 
 h1 {
@@ -32,6 +32,6 @@ h1 {
 }
 
 p {
-  font-family: 'romantic', Arial, sans-serif;
+  font-family: 'technott', Arial, sans-serif;
   font-size: 1.2em; /* Adjust the font size as needed */
 }
