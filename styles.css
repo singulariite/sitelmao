@@ -29,6 +29,10 @@ body {
 
 h1 {
   font-family: 'WhiteOnBlack', Arial, sans-serif;
+  font-size: 2em; /* Increase the font size */
+  align-self: flex-start; /* Align to the top left */
+  margin: 0; /* Remove default margin */
+  padding: 10px; /* Add padding for spacing */
 }
 
 p {
@@ -43,7 +47,8 @@ p {
   align-items: center;
   text-align: center;
   background-color: rgba(23, 3, 34, 0.752); /* Optional: Add a background color with transparency */
-  padding: 40px; /* Increase padding to make the container bigger */
+  padding: 60px; /* Increase padding to make the container bigger */
   border-radius: 10px; /* Optional: Add rounded corners */
-  border: 2px solid #502727; /* Add a white border */
+  border: 2px solid #ffffff; /* Add a white border */
+  position: relative; /* Ensure the container is positioned relative to its contents */
 }
