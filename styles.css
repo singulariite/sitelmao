@@ -35,3 +35,14 @@ p {
   font-family: 'romantic', 'Segoe UI', sans-serif;
   font-size: 1.2em; /* Adjust the font size as needed */
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color with transparency */
+  padding: 20px;
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
