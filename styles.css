@@ -42,7 +42,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background color with transparency */
+  background-color: rgba(23, 3, 34, 0.752); /* Optional: Add a background color with transparency */
   padding: 20px;
   border-radius: 10px; /* Optional: Add rounded corners */
 }
