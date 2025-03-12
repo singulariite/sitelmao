@@ -43,6 +43,7 @@ p {
   align-items: center;
   text-align: center;
   background-color: rgba(23, 3, 34, 0.752); /* Optional: Add a background color with transparency */
-  padding: 20px;
+  padding: 40px; /* Increase padding to make the container bigger */
   border-radius: 10px; /* Optional: Add rounded corners */
+  border: 2px solid #502727; /* Add a white border */
 }
