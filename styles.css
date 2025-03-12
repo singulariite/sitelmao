@@ -23,8 +23,8 @@ body {
 }
 
 @font-face {
-  font-family: 'ROMANTIC.TTF';
-  src: url('./Fonts/ROMANTIC.TTF') format('truetype');
+  font-family: 'romantic';
+  src: url('./Fonts/romantic.ttf') format('truetype');
 }
 
 h1 {
@@ -32,5 +32,5 @@ h1 {
 }
 
 p {
-  font-family: 'ROMANTIC', Arial, sans-serif;
+  font-family: 'romantic', Arial, sans-serif;
 }
