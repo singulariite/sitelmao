@@ -30,9 +30,11 @@ body {
 h1 {
   font-family: 'WhiteOnBlack', Arial, sans-serif;
   font-size: 2em; /* Increase the font size */
-  align-self: flex-start; /* Align to the top left */
   margin: 0; /* Remove default margin */
   padding: 10px; /* Add padding for spacing */
+  position: absolute; /* Position the h1 absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
 }
 
 p {
