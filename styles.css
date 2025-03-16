@@ -48,9 +48,9 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(5, 2, 7, 0.548); /* Optional: Add a background color with transparency */
+  background-color: rgba(88, 13, 138, 0.158); /* Optional: Add a background color with transparency */
   padding: 60px; /* Increase padding to make the container bigger */
   border-radius: 10px; /* Optional: Add rounded corners */
-  border: 2px solid #0e0b27; /* Add a white border */
+  border: 2px solid #000000; /* Add a white border */
   position: relative; /* Ensure the container is positioned relative to its contents */
 }
