@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-/* yes i use github copilot fuck you and your coding im too lazy */
+/* yes i use github copilot wa har ghar im going crazy*/
 body {
   margin: 0;
 }
@@ -18,8 +18,8 @@ body {
 }
 
 @font-face {
-  font-family: 'WhiteOnBlack';
-  src: url('./Fonts/White On Black.ttf') format('truetype');
+  font-family: 'segoeui';
+  src: url('./Fonts/segoe-ui-semilight.ttf') format('truetype');
 }
 
 @font-face {
@@ -28,13 +28,16 @@ body {
 }
 
 h1 {
-  font-family: 'WhiteOnBlack', Arial, sans-serif;
+  font-family: 'segoeui', Arial, sans-serif;
   font-size: 2em; /* Increase the font size */
   margin: 0; /* Remove default margin */
   padding: 10px; /* Add padding for spacing */
-  position: absolute; /* Position the h1 absolutely */
+  position: relative; /* Position the h1 absolutely */
   top: 0; /* Align to the top */
-  left: 0; /* Align to the left */
+  left: 0; /* Center horizontally */
+  letter-spacing: 2px; /* Adjust the spacing between letters */
+  height: 30%; /* Default height, can be adjusted */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6); /* Add glow effect */
 }
 
 p {
@@ -48,9 +51,17 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(88, 13, 138, 0.158); /* Optional: Add a background color with transparency */
-  padding: 60px; /* Increase padding to make the container bigger */
-  border-radius: 10px; /* Optional: Add rounded corners */
-  border: 2px solid #000000; /* Add a white border */
-  position: relative; /* Ensure the container is positioned relative to its contents */
+  background: linear-gradient(
+    rgba(88, 13, 138, 0.158),
+    rgba(88, 13, 138, 0)
+  ); /* Gradient fading into transparency */
+  width: 100%; /* Make the container span the full width */
+  height: 100vh; /* Make the container span the full viewport height */
+  padding: 0; /* Remove extra padding */
+  margin: 0; /* Remove extra margin */
+  border-radius: 0; /* Remove rounded corners */
+  border: none; /* Remove the border */
+  position: absolute; /* Position the container absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
 }
